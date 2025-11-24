@@ -12,7 +12,6 @@ import { scrollToTop } from "./utilities/scrollToTop.js";
 
 function App() {
   const [showBackToTop, setShowBackToTop] = useState(false);
-  const [inNearFooter, setIsNearFooter] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {

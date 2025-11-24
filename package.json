@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://samtimeinc.github.io/react-final-project",
+  "homepage": "https://samtimeinc.github.io/FES_Mod6_FinalProj_React",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
