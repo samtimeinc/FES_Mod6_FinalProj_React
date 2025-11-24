@@ -27,7 +27,7 @@ function App() {
   }, []);
   return (
     <>
-      <Router >
+      <Router basename="/FES_Mod6_FinalProj_React">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

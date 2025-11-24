@@ -28,7 +28,7 @@ const Search = () => {
     setIsFetchingData(true);
     setSelect("");
     const { data } = await axios.get(
-      `http://www.omdbapi.com/?apikey=6777cd9d&s=${title}`
+      `https://www.omdbapi.com/?apikey=6777cd9d&s=${title}`
     );
     console.log(data);
     const { Search: search } = data;
